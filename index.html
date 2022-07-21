@@ -13,7 +13,9 @@
             <div id="root">
                 <p>{{ message }}</p>
                 <input v-model="message" type="text">
-                <img :src="img" alt="logo">
+            </div>
+            <div id="app">
+                <img :src="img" :class="myClass" alt="logo">
             </div>
         </div>
     

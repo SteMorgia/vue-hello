@@ -9,13 +9,13 @@
     </head>
     <body>
         
-        <div class="container">
-            <div id="root">
+        <div id="root" :class="containerClass">
+            <div>
                 <p>{{ message }}</p>
                 <input v-model="message" type="text">
             </div>
-            <div id="app">
-                <img :src="img" :class="myClass" alt="logo">
+            <div :class="marginClass">
+                <img :src="img" alt="logo">
             </div>
         </div>
     

@@ -3,14 +3,10 @@ var root = new Vue({
     el: '#root',
     data: {
         message: 'Scrivi ciò che preferisci',
+        img: 'js/boolean-logo.png',
+        marginClass: 'margin',
+        containerClass: 'container'
     }
 })
 
-var app = new Vue({
-    el: '#app',
-    data: {
-        img: 'js/boolean-logo.png',
-        myClass: 'margin'
-    }
-})
 
